@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	box-sizing: border-box;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+	background: linear-gradient(to right, #3525af, #9153c9);
+	margin: 0;
+	padding: 0;
+}
+.icon{
+	color:#9153c9;
+}
+
+.resume{
+	width: 10in;
+	height: 14.15in;
+	background: #fff;
+	margin-left: auto;
+	margin-right:auto;
+	display: flex;
+}
+
+.left{
+	background: #292b2f;
+	width: 250px;
+	padding: 0 20px;
+}
+
+.right{
+	width: calc(100% - 250px);
+}
+
+.left .img_holder{
+	text-align: center;
+	padding: 20px 0;
+	margin-bottom: 50px;
+}
+
+.left .img_holder img{
+	width: 180px;
+	border-radius: 30px;
+	
+}
+
+.pb{
+	padding-bottom: 10px;
+}
+
+.title{
+	font-size: 20px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	padding-bottom: 10px;
+	color: #ff8000;
+	position: relative;
+	text-align: right;
+	margin-bottom: 15px;
+}
+
+.title:before{
+	content: "";
+	position: absolute;
+	top: 35px;
+	right: 0;
+	width: 50px;
+	height: 3px;
+	background: #ff8000;
+}
+
+.left .icon{
+	font-size: 18px;
+	color: #9153c9;
+}
+
+.left .text{
+	color: #9153c9;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+.contact_wrap{
+	margin-top: -25px;
+}
+.contact .li_wrap{
+	align-items: center;
+	width: 100%;
+	margin-bottom: 15px;
+}
+.li_wrap a{
+	display: flex;
+	text-decoration: none;
+}
+.contact .li_wrap .icon{
+	width: 40px;
+	height: 40px;
+	background: #fff;
+	border-radius: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-right: 15px;
+}
+.contact .li_wrap .icon:hover{
+	background-color: #f31ae8;
+	color:#fff;
+}
+.contact .li_wrap .text{
+	width: calc(100% - 50px);
+	word-break: break-word;
+	color: #fff;
+	margin-top: 15px;
+	font-size: 12px;
+}
+.contact .li_wrap .text:hover{
+	text-decoration: underline #f31ae8;
+}
+.skills ul,
+.hobbies ul{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.skills .li_wrap,
+.hobbies .li_wrap{
+	width: 80px;
+	height: 80px;
+	margin-bottom: 15px;
+	border-radius: 15px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.skills .li_wrap{
+	border: 2px solid #fff;
+}
+
+.skills .li_wrap .text,
+.hobbies .li_wrap .text{
+	margin-top: 5px;
+}
+
+.hobbies .li_wrap{
+	border: 2px solid #fff;
+}
+
+
+.hobbies .li_wrap .icon,
+.hobbies .li_wrap .text{
+	color: #fff;
+}
+.skills .li_wrap .icon,
+.skills .li_wrap .text{
+	color: #fff;
+}
+
+.hobbies .li_wrap:hover{
+	background: #fff;
+}
+.skills .li_wrap:hover{
+	background:#fff;
+}
+
+.hobbies .li_wrap:hover .icon,
+.hobbies .li_wrap:hover .text{
+	color: #9153c9;
+}
+.skills .li_wrap:hover .icon,
+.skills .li_wrap:hover .text{
+	color: #9153c9;
+	/* change ho */
+}
+
+.header{
+	background: #292b2f;
+	padding: 15px 30px;
+	color: #fff;
+	height: 230px;
+}
+
+.header .name{
+	font-size: 52px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #ff8000;
+}
+
+.header .role{
+	font-weight: 300;
+	font-size: 20px;
+}
+
+.header .about{
+	margin-top: 10px;
+	line-height: 26px;
+}
+
+.right_inner{
+	padding: 10px;
+	color: #292b2f;
+}
+
+.right_inner .subjectArea{
+	margin-top: 20px;
+}
+
+.right_inner .li_wrap{
+	display: flex;
+	margin-bottom: 10px;
+}
+
+.right_inner .li_wrap .date {
+    width: 135px;
+    color: #9153c9;
+}
+
+.right_inner .li_wrap .info{
+	width: calc(100%  - 125px);
+	padding-left: 25px;
+	position: relative;
+}
+
+.right_inner .li_wrap .info_title{
+	text-transform: uppercase;
+	font-weight:400;
+	letter-spacing: 2px;
+	color: #9153c9;
+	width:500px;
+}
+
+.right_inner .li_wrap .info_com{
+	font-weight: 300;
+	font-size: 12px;
+	margin-top: 3px;
+	width: 500px;
+}
+
+.right_inner .li_wrap .info_cont{
+	margin-top: 10px;
+	text-align: justify;
+}
+
+.right_inner .li_wrap .info:before{
+	content: "";
+	position: absolute;
+	top: 3px;
+	left: 0;
+	width: 10px;
+	height: 10px;
+	background: #9153c9;
+	border-radius: 50%;
+}
+.right_inner .li_wrap .info_title a{
+	text-decoration: none;
+	color: #9153c9;
+}
+.right_inner .li_wrap .info_title a:hover{
+	text-decoration: underline;
+}
+.right_inner .li_wrap .info:after{
+	content: "";
+	position: absolute;
+	top: 10px;
+	left: 4px;
+	width: 2px;
+	height: 90%;
+	background: #9153c9;
+}
+.referrence_name{
+	font-size: 18px;
+	color: #9153c9;
+}
+.refcon a{
+	color:#292b2f;
+	text-decoration: none;
+}
+.refcon a:hover{
+	color:#943697;
+	text-decoration: underline;
+}
